@@ -1,10 +1,10 @@
-import MainContainer from "./components/MainContainer";
+import MainForm from "./components/MainForm";
 
 function App() {
   return (
     <>
       <div className="App">
-        <MainContainer />
+        <MainForm />
       </div>
     </>
   );
