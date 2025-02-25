@@ -41,6 +41,11 @@
 .AddContainer {
   display: flex;
   justify-content: space-around;
+  border-radius: 12px;
   width: inherit;
   margin-bottom: 2vh;
+}
+
+.ReactModal__Body--open {
+  overflow: hidden;
 }
