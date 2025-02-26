@@ -3,7 +3,7 @@ import AddContainer from "./AddContainer";
 import NavContainer from "./NavContainer";
 import MainContainer from "./MainContainer";
 
-export default function MainForm() {
+const MainForm = () => {
   return (
     <div className={styles.wrapper}>
       <div className={styles.MainForm}>
@@ -13,4 +13,6 @@ export default function MainForm() {
       </div>
     </div>
   );
-}
+};
+
+export default MainForm;
