@@ -2,7 +2,7 @@ import styles from "./Modal.module.css";
 import { useState } from "react";
 import Modal from "react-modal";
 
-const AddContainer = () => {
+function AddContainer() {
   const [modal, setModal] = useState(false);
 
   const openModal = () => {
@@ -47,6 +47,6 @@ const AddContainer = () => {
       <button>삭제</button>
     </div>
   );
-};
+}
 
-export default AddContainer;
+export { AddContainer };

@@ -1,9 +1,9 @@
 import styles from "./MainForm.module.css";
-import AddContainer from "./AddContainer";
-import NavContainer from "./NavContainer";
-import MainContainer from "./MainContainer";
+import { AddContainer } from "./AddContainer";
+import { NavContainer } from "./NavContainer";
+import { MainContainer } from "./MainContainer";
 
-const MainForm = () => {
+function MainForm() {
   return (
     <div className={styles.wrapper}>
       <div className={styles.MainForm}>
@@ -13,6 +13,6 @@ const MainForm = () => {
       </div>
     </div>
   );
-};
+}
 
-export default MainForm;
+export { MainForm };
