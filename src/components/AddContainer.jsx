@@ -39,9 +39,17 @@ function AddContainer() {
         }}
       >
         <div className={styles.modalContent}>
-          <h2>모달 테스트</h2>
-          <p>모달 테스트 성공??</p>
-          <button onClick={closeModal}>x</button>
+          <h2>할일 추가</h2>
+          <p>해야 할 일을 추가하세요.</p>
+          <input
+            type="text"
+            placeholder="할 일 추가"
+            onChange={(e) => e.target.value()}
+          />
+          <div>
+            <button onClick={closeModal}>추가</button>
+            <button onClick={closeModal}>취소</button>
+          </div>
         </div>
       </Modal>
       <button>삭제</button>
